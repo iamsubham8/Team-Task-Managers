@@ -40,12 +40,11 @@ A full-stack web application designed for seamless team project and task managem
 Deploying this app to Railway is incredibly simple due to the unified root `package.json`.
 
 1. **Push to GitHub:** Push this complete folder to a new GitHub repository.
-2. **Connect Railway:**
-   * Go to [Railway.app](https://railway.app/) and log in.
+2. **Connect Vercel:**
    * Click **New Project** -> **Deploy from GitHub repo**.
    * Select your repository.
 3. **Deploy:**
-   * Railway will automatically detect the root `package.json`.
+   * Vercel will automatically detect the root `package.json`.
    * It will run the `postinstall` script (which builds the React app) and then use the `start` script to run the Express server.
 4. **Generate Domain:**
    * Once deployed, click on the service in Railway.
